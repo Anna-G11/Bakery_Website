@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico|Abril+Fatface|Noto+Sans);
+@import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;562&display=swap);
+
+.navbar {
+	padding: 1rem;
+	display: block;
+	padding-left: 5rem;
+	padding-right: 5rem;
+	color: white;
+	border-radius: 0;
+}
+.body{
+  background-color: #ffd5cd;
+}
+.navbar-brand{
+  position: absolute;
+  left: 10%;
+  text-align: center;
+}
+#logo{
+  padding: 4rem;
+}
+
+#Name{
+  font-family: Pacifico;
+	font-size: 2rem;
+	margin-right: 10rem;
+}
+
+.social-icons {
+	border: 1px solid white;
+	display: inline;
+	float: right;
+	margin-top: 0.5rem;
+}
+.fa {
+
+	padding: 1rem;
+	color: white;
+}
+
+.fa:hover {
+	color: lightgrey;
+}
+.jumbotron {
+	margin-bottom: 0;
+	background-image: url(https://images.unsplash.com/photo-1429554513019-6c61c19ffb7e?q=80&fm=jpg&s=2d4a48d9efebce5f1b31fa58309dfecf);
+	background-size: cover;
+	background-position: 50% 50%;
+	color: white;
+	padding: 10rem;
+	padding-bottom: -10;
+	border-radius: 0;
+	text-align: center;
+}
+#head{
+  font-family: 'Dancing Script', cursive;
+  font-size: 50px;
+  border-bottom: 1px solid white;
+	padding-bottom: 2.5rem;
+	margin-top: 2rem;
+}
