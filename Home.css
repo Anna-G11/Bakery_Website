@@ -1,62 +1,315 @@
+@import url(https://fonts.googleapis.com/css2?family=Girassol&display=swap);
 @import url(https://fonts.googleapis.com/css?family=Pacifico|Abril+Fatface|Noto+Sans);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pacifico&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;562&display=swap);
-
+@import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@1,700&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap);
 .navbar {
 	padding: 1rem;
-	display: block;
+	display: flex;
 	padding-left: 5rem;
 	padding-right: 5rem;
 	color: white;
 	border-radius: 0;
 }
-.body{
-  background-color: #ffd5cd;
+.my_container {
+
+  background-image: url('img/bg2.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
+
 .navbar-brand{
-  position: absolute;
+
+	float: right;
+	display: inline;
+  position: relative;
   left: 10%;
+	justify-content: space-around;
   text-align: center;
 }
 #logo{
-  padding: 4rem;
+	display: flex;
+	margin-left: 5rem;
+  padding-right: : 4rem;
 }
 
 #Name{
+	color: #d54062;
   font-family: Pacifico;
 	font-size: 2rem;
-	margin-right: 10rem;
+	margin-top: -2rem;
+
+}
+.nav_menu{
+	font-family: Pacifico;
+	font-size: 3rem;
+	margin-right: 2rem;
+}
+.float{
+	font-family: 'Merriweather', serif;
+	font-size: 1.7rem;
+	flex-flow: revert;
+	/* padding-left: 30px; */
+}
+
+@media all and (max-width: 420px) {
+	.navbar{
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+	}
+	.float {
+		display: flex;
+		flex-flow: column wrap;
+		justify-content: center;
+		align-items: center;
+	}
+}
+.float > a{
+	padding-left: 30px;
 }
 
 .social-icons {
-	border: 1px solid white;
+	border: 2px solid black;
 	display: inline;
 	float: right;
-	margin-top: 0.5rem;
+	margin-top: 1.5rem;
 }
 .fa {
-
 	padding: 1rem;
-	color: white;
+	color: black;
 }
 
 .fa:hover {
-	color: lightgrey;
+	color: grey;
 }
-.jumbotron {
-	margin-bottom: 0;
-	background-image: url(https://images.unsplash.com/photo-1429554513019-6c61c19ffb7e?q=80&fm=jpg&s=2d4a48d9efebce5f1b31fa58309dfecf);
-	background-size: cover;
-	background-position: 50% 50%;
-	color: white;
-	padding: 10rem;
-	padding-bottom: -10;
+
+.intro {
+
+	padding: 2rem;
+	padding-bottom: -5rem;
 	border-radius: 0;
 	text-align: center;
 }
+.img{
+
+	justify-content: center;
+	align-items: center;
+	margin-left: -15px;
+	/* border: 2px ridge white; */
+	height: calc(14rem + 7vw);
+	width: calc(14rem + 7vw);
+	/* border-radius: calc(14rem + 7vw); */
+}
 #head{
+	text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #d54062;
 	padding-bottom: 2.5rem;
 	margin-top: 2rem;
+}
+
+#menu{
+	padding: 1rem;
+	border-radius: 5px;
+
+}
+.our_menu{
+	padding: 1rem;
+	text-align: center;
+	font-family: 'Lora', serif;
+	font-size: 50px;
+}
+
+
+
+*{
+	padding: 0;
+	margin: 0;
+}
+
+.container{
+	padding: 1rem;
+	border-radius: 5px;
+	border-width: 10px 3px 3px 10px;
+}
+#Bakery_items{
+
+	background-image:url(https://lh3.googleusercontent.com/proxy/-zxRsGJECCasoziXWCsDxz_4ikilevRm8VaZMq74gcR48SQAkUihw_jC1iSbpxXLK5eqsCkKk251vIOV8xxaTAu96z5oTLqo8pCazWXlxUg5ssrc7sI);
+}
+.gallery{
+	padding: 1rem;
+	font-family: 'Lora', serif;
+	font-size: 50px;
+	text-align: center;
+}
+
+.contact {
+	text-align: center;
+}
+.row {
+	padding: -15px;
+}
+
+.Art {
+	font-family: 'Lora', serif;
+	font-size: 50px;
+	padding-bottom: 0;
+	border-bottom: none;
+	}
+
+.line {
+	font-family: 'Abril Fatface', cursive;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	color: #d54062;
+	margin-bottom: 2rem;
+	}
+	.parah {
+		font-family: 'Dancing Script', cursive;
+		line-height: 3rem;
+		font-size: 1.5rem;
+	}
+
+.chef {
+		font-family: 'Lora', serif;
+		font-size: 1.5rem;
+		margin-bottom: 2rem;
+	}
+.name-wrapper{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  padding: 0 calc(3rem + 1.5vw);
+}
+	.Name {
+		font-family: 'Abril Fatface', cursive;
+    font-size: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+
+	}
+
+	.Surname {
+		font-family: 'Abril Fatface', cursive;
+    /* float: right; */
+    font-size: 20px;
+    /* margin-right: 8rem; */
+    /* justify-content: center; */
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    /* padding-bottom: 0*/
+	}
+
+	.img-circle {
+		position: relative;
+    display: flex;
+    justify-content: space-around;
+    /* margin-right: 90px; */
+    /* margin-left: -40rem; */
+    border: 4px solid #900c3f;
+    border-radius: 100px;
+
+	}
+
+	.blockquote {
+		color: #900c3f;
+		font-style: italic;
+		font-family: 'Abril Fatface', cursive;
+		margin-top: 2rem;
+
+	}
+
+	.fa-quote-right,
+	.fa-quote-left {
+		color: lightgrey;
+		font-size: 1rem;
+	}
+@media all and (max-width: 400px){
+		.blockquote .fa-quote-right{
+			width: 100%;
+		}
+}
+	.img-thumbnail {
+		margin-top: 3.5rem;
+		padding: 1rem;
+		border: 0;
+		border-radius: 0;
+		box-shadow: 2px 16px 65px -9px rgba(0,0,0,0.61);
+	}
+	.img_con{
+		position: relative;
+		height: calc(19rem + 9.5vh);
+		margin-top: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.phrase {
+		width: 15rem;
+		height: 15rem;
+		background-color: white;
+		opacity: 0.8;
+		border-radius: 50px;
+		position: absolute;
+		box-shadow: 10px 10px 42px 0px rgba(0,0,0,0.75);
+
+	}
+
+	.text {
+		opacity: 1;
+		font-family: 'Libre Baskerville', serif;
+		padding-top: 2rem;
+		padding-bottom: 4rem;
+		font-size: 1.7rem;
+
+		line-height: 3rem;
+
+	}
+}
+
+
+@media screen and (min-width: 600px){
+
+
+	#left{
+		width: 100%;}
+		#right{
+		width: 100%;
+		}
+
+		.phrase{
+			display: flex;
+			justify-content:center;
+			align-items: center;
+		}
+		.name-wrapper{
+			width: 100%;
+		}
+
+		.img-thumbnail{
+		width: 100%;	}
+		.phrase{
+			width: 10%;
+				}
+		.text{
+			width: 100%;
+				}
+		.Art{
+			width: 100%;	}
+		.parah{
+				width: 100%;
+			}
+		.line{
+			width: 100%;}
+					.chef{
+						width: 100%;	}
 }
