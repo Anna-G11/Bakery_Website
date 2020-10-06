@@ -7,8 +7,9 @@
 @import url(https://fonts.googleapis.com/css2?family=Merriweather&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Lora:ital,wght@1,700&display=swap);
+@import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
 .navbar {
-	padding: 1rem;
+	padding: 1rem
 	display: flex;
 	padding-left: 5rem;
 	padding-right: 5rem;
@@ -25,7 +26,7 @@
 }
 
 .navbar-brand{
-
+	
 	float: right;
 	display: inline;
   position: relative;
@@ -111,9 +112,14 @@
 	text-align: center;
   font-family: 'Dancing Script', cursive;
   font-size: 50px;
-  border-bottom: 1px solid #d54062;
-	padding-bottom: 2.5rem;
+	padding-bottom: 1rem;
 	margin-top: 2rem;
+}
+#thoughts{
+	text-align: center;
+  font-family: 'Cookie', cursive;
+  font-size: 40px;
+	border-bottom: 1px solid #d54062;
 }
 
 #menu{
@@ -174,13 +180,14 @@
 	}
 	.parah {
 		font-family: 'Dancing Script', cursive;
-		line-height: 3rem;
+		line-height: 2.5rem;
 		font-size: 1.5rem;
+		padding-left: 3rem;
 	}
 
 .chef {
 		font-family: 'Lora', serif;
-		font-size: 1.5rem;
+		font-size: 2rem;
 		margin-bottom: 2rem;
 	}
 .name-wrapper{
@@ -191,7 +198,7 @@
 }
 	.Name {
 		font-family: 'Abril Fatface', cursive;
-    font-size: 20px;
+    font-size: 30px;
     border-top: 1px solid black;
     border-bottom: 1px solid black;
 
@@ -200,7 +207,7 @@
 	.Surname {
 		font-family: 'Abril Fatface', cursive;
     /* float: right; */
-    font-size: 20px;
+    font-size: 30px;
     /* margin-right: 8rem; */
     /* justify-content: center; */
     border-top: 1px solid black;
@@ -223,20 +230,16 @@
 		color: #900c3f;
 		font-style: italic;
 		font-family: 'Abril Fatface', cursive;
-		margin-top: 2rem;
+		margin-top: 1rem;
 
 	}
 
 	.fa-quote-right,
 	.fa-quote-left {
 		color: lightgrey;
-		font-size: 1rem;
+		font-size: 0.5rem;
 	}
-@media all and (max-width: 400px){
-		.blockquote .fa-quote-right{
-			width: 100%;
-		}
-}
+
 	.img-thumbnail {
 		margin-top: 3.5rem;
 		padding: 1rem;
@@ -254,7 +257,7 @@
 	}
 
 	.phrase {
-		width: 15rem;
+		width: 18rem;
 		height: 15rem;
 		background-color: white;
 		opacity: 0.8;
@@ -269,11 +272,27 @@
 		font-family: 'Libre Baskerville', serif;
 		padding-top: 2rem;
 		padding-bottom: 4rem;
-		font-size: 1.7rem;
-
+		font-size: 1.5rem;
+		color: inherit;
 		line-height: 3rem;
 
 	}
+
+	#review{
+		padding-top: 1rem;
+		font-size: 1.5rem;
+		font-family: 'Libre Baskerville', serif;
+		text-align: center;
+		justify-content: center;
+		align-items: center;
+		color: #900c3f;
+	}
+#google{
+	margin-bottom: 0.3rem;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
 }
 
 
