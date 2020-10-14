@@ -26,7 +26,7 @@
 }
 
 .navbar-brand{
-	
+
 	float: right;
 	display: inline;
   position: relative;
@@ -155,6 +155,18 @@
 	font-family: 'Lora', serif;
 	font-size: 50px;
 	text-align: center;
+}
+
+
+.br-media-query-edit{
+	display: block;
+}
+
+@media screen and (min-width: 600px){
+
+	.br-media-query-edit{
+		display: none;
+	}
 }
 
 .contact {
@@ -292,8 +304,7 @@
 	text-align: center;
 	justify-content: center;
 	align-items: center;
-}
-}
+}}
 
 
 @media screen and (min-width: 600px){
